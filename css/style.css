@@ -1,0 +1,54 @@
+* {box-sizing: border-box;}
+
+header{
+    background-color: black;
+    color: #fff;
+}
+
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services {
+    max-width: 940px;
+    margin: 0 auto; 
+   
+}
+
+section h2 {
+    max-width: 940px;
+    text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.grid article {
+    display: flex;
+    flex-direction: column;
+    align-item: flex-start;
+  
+}
+
+
+
+
+
